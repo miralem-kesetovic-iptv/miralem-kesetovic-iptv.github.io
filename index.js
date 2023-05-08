@@ -48,7 +48,7 @@ document.addEventListener("click", function(e) {
     hasInteracted = true;
 });
 
-document.addEventListener("scroll", function(e) {
+window.addEventListener("scroll", function(e) {
     hasInteracted = true;
 });
 

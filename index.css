@@ -197,4 +197,8 @@ p {
         width: 90%;
         height: auto;
     }
+
+    #header .image {
+        transform: scale(0.9);
+    }
 }

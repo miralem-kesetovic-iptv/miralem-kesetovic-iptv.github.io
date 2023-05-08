@@ -48,6 +48,10 @@ document.addEventListener("click", function(e) {
     hasInteracted = true;
 });
 
+document.addEventListener("scroll", function(e) {
+    hasInteracted = true;
+});
+
 var makeYear = 2023;
 var currYear = Number(String(new Date()).split(' ', 4)[3]);
 var copyrightYear = document.querySelector("#copyrightYear");
